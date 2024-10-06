@@ -1,4 +1,4 @@
-FAMOUS GUIs:
+Famous v2 GUIs:
 - DEX
 - INFINITE YIELD
 - FE
