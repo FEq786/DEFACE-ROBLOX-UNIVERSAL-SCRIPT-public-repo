@@ -1,3 +1,11 @@
 Supported v1-2 games:
 - MM2 - YARHM
 - FLEE THE FACILITY - YARHM
+
+Supported v3 games:
+- MM2 - YARHM
+- FLEE THE FACILITY - YARHM
+- 3008 - SKY HUB
+- DOORS - MSPAINT V2
+- DA HOOD - VORTEX
+- ARSENAL - OWL HUB
