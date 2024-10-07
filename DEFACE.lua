@@ -1,5 +1,3 @@
--- DEFACE v2
-
 -- Instances:
 
 local DEFACE = Instance.new("ScreenGui")
@@ -45,6 +43,22 @@ local yarhm_t = Instance.new("TextLabel")
 local exe_yarhm = Instance.new("TextButton")
 local yarhm_d = Instance.new("TextLabel")
 local UIGridLayout = Instance.new("UIGridLayout")
+local sky = Instance.new("Frame")
+local sky_t = Instance.new("TextLabel")
+local exe_sky = Instance.new("TextButton")
+local sky_d = Instance.new("TextLabel")
+local paint = Instance.new("Frame")
+local paint_t = Instance.new("TextLabel")
+local exe_paint = Instance.new("TextButton")
+local paint_d = Instance.new("TextLabel")
+local vortex = Instance.new("Frame")
+local vortex_t = Instance.new("TextLabel")
+local exe_vortex = Instance.new("TextButton")
+local vortex_d = Instance.new("TextLabel")
+local owl = Instance.new("Frame")
+local owl_t = Instance.new("TextLabel")
+local exe_owl = Instance.new("TextButton")
+local owl_d = Instance.new("TextLabel")
 local script_exe = Instance.new("Frame")
 local text = Instance.new("TextLabel")
 local img = Instance.new("ImageLabel")
@@ -73,6 +87,18 @@ local ue = Instance.new("Frame")
 local ue_t = Instance.new("TextLabel")
 local exe_ue = Instance.new("TextButton")
 local ue_d = Instance.new("TextLabel")
+local opf = Instance.new("Frame")
+local opf_t = Instance.new("TextLabel")
+local exe_opf = Instance.new("TextButton")
+local opf_d = Instance.new("TextLabel")
+local ser = Instance.new("Frame")
+local ser_t = Instance.new("TextLabel")
+local exe_ser = Instance.new("TextButton")
+local ser_d = Instance.new("TextLabel")
+local rev = Instance.new("Frame")
+local rev_t = Instance.new("TextLabel")
+local exe_rev = Instance.new("TextButton")
+local rev_d = Instance.new("TextLabel")
 local script_exe_2 = Instance.new("Frame")
 local text_2 = Instance.new("TextLabel")
 local img_2 = Instance.new("ImageLabel")
@@ -126,7 +152,7 @@ uni.BorderSizePixel = 0
 uni.Position = UDim2.new(0.285181731, 0, 0.627777755, 0)
 uni.Size = UDim2.new(0.692546844, 0, 0.277777791, 0)
 uni.Font = Enum.Font.SourceSansBold
-uni.Text = "(v2) UNIVERSAL GUI"
+uni.Text = "(v3) UNIVERSAL GUI"
 uni.TextColor3 = Color3.fromRGB(255, 255, 255)
 uni.TextScaled = true
 uni.TextSize = 14.000
@@ -525,6 +551,206 @@ UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout.CellPadding = UDim2.new(0.0299999993, 0, 0.00499999989, 0)
 UIGridLayout.CellSize = UDim2.new(0.300000012, 0, 0.0299999993, 0)
 
+sky.Name = "sky"
+sky.Parent = scroll
+sky.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sky.BorderColor3 = Color3.fromRGB(20, 20, 20)
+sky.BorderSizePixel = 2
+sky.Size = UDim2.new(0.258052707, 0, 0.0199999996, 0)
+
+sky_t.Name = "sky_t"
+sky_t.Parent = sky
+sky_t.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+sky_t.BorderColor3 = Color3.fromRGB(255, 255, 255)
+sky_t.BorderSizePixel = 2
+sky_t.Position = UDim2.new(0.0387228839, 0, 0.101297937, 0)
+sky_t.Size = UDim2.new(0.922554255, 0, 0.330788732, 0)
+sky_t.Font = Enum.Font.SourceSansBold
+sky_t.Text = "SKY"
+sky_t.TextColor3 = Color3.fromRGB(255, 255, 255)
+sky_t.TextScaled = true
+sky_t.TextSize = 14.000
+sky_t.TextWrapped = true
+
+exe_sky.Name = "exe_sky"
+exe_sky.Parent = sky
+exe_sky.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exe_sky.BackgroundTransparency = 1.000
+exe_sky.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exe_sky.BorderSizePixel = 0
+exe_sky.Position = UDim2.new(0.116168782, 0, 0.793502212, 0)
+exe_sky.Size = UDim2.new(0.757981718, 0, 0.20649761, 0)
+exe_sky.Font = Enum.Font.SourceSansBold
+exe_sky.Text = "EXECUTE"
+exe_sky.TextColor3 = Color3.fromRGB(255, 255, 255)
+exe_sky.TextScaled = true
+exe_sky.TextSize = 14.000
+exe_sky.TextWrapped = true
+
+sky_d.Name = "sky_d"
+sky_d.Parent = sky
+sky_d.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+sky_d.BorderColor3 = Color3.fromRGB(255, 255, 255)
+sky_d.BorderSizePixel = 2
+sky_d.Position = UDim2.new(0.0387229174, 0, 0.432086557, 0)
+sky_d.Size = UDim2.new(0.922554195, 0, 0.230252728, 0)
+sky_d.Font = Enum.Font.SourceSans
+sky_d.Text = "3008"
+sky_d.TextColor3 = Color3.fromRGB(255, 255, 255)
+sky_d.TextScaled = true
+sky_d.TextSize = 14.000
+sky_d.TextWrapped = true
+
+paint.Name = "paint"
+paint.Parent = scroll
+paint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+paint.BorderColor3 = Color3.fromRGB(20, 20, 20)
+paint.BorderSizePixel = 2
+paint.Size = UDim2.new(0.258052707, 0, 0.0199999996, 0)
+
+paint_t.Name = "paint_t"
+paint_t.Parent = paint
+paint_t.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+paint_t.BorderColor3 = Color3.fromRGB(255, 255, 255)
+paint_t.BorderSizePixel = 2
+paint_t.Position = UDim2.new(0.0387228839, 0, 0.101297937, 0)
+paint_t.Size = UDim2.new(0.922554255, 0, 0.330788732, 0)
+paint_t.Font = Enum.Font.SourceSansBold
+paint_t.Text = "MSPAINT V2"
+paint_t.TextColor3 = Color3.fromRGB(255, 255, 255)
+paint_t.TextScaled = true
+paint_t.TextSize = 14.000
+paint_t.TextWrapped = true
+
+exe_paint.Name = "exe_paint"
+exe_paint.Parent = paint
+exe_paint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exe_paint.BackgroundTransparency = 1.000
+exe_paint.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exe_paint.BorderSizePixel = 0
+exe_paint.Position = UDim2.new(0.116168782, 0, 0.793502212, 0)
+exe_paint.Size = UDim2.new(0.757981718, 0, 0.20649761, 0)
+exe_paint.Font = Enum.Font.SourceSansBold
+exe_paint.Text = "EXECUTE"
+exe_paint.TextColor3 = Color3.fromRGB(255, 255, 255)
+exe_paint.TextScaled = true
+exe_paint.TextSize = 14.000
+exe_paint.TextWrapped = true
+
+paint_d.Name = "paint_d"
+paint_d.Parent = paint
+paint_d.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+paint_d.BorderColor3 = Color3.fromRGB(255, 255, 255)
+paint_d.BorderSizePixel = 2
+paint_d.Position = UDim2.new(0.0387229174, 0, 0.432086557, 0)
+paint_d.Size = UDim2.new(0.922554195, 0, 0.230252728, 0)
+paint_d.Font = Enum.Font.SourceSans
+paint_d.Text = "DOORS"
+paint_d.TextColor3 = Color3.fromRGB(255, 255, 255)
+paint_d.TextScaled = true
+paint_d.TextSize = 14.000
+paint_d.TextWrapped = true
+
+vortex.Name = "vortex"
+vortex.Parent = scroll
+vortex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+vortex.BorderColor3 = Color3.fromRGB(20, 20, 20)
+vortex.BorderSizePixel = 2
+vortex.Size = UDim2.new(0.258052707, 0, 0.0199999996, 0)
+
+vortex_t.Name = "vortex_t"
+vortex_t.Parent = vortex
+vortex_t.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+vortex_t.BorderColor3 = Color3.fromRGB(255, 255, 255)
+vortex_t.BorderSizePixel = 2
+vortex_t.Position = UDim2.new(0.0387228839, 0, 0.101297937, 0)
+vortex_t.Size = UDim2.new(0.922554255, 0, 0.330788732, 0)
+vortex_t.Font = Enum.Font.SourceSansBold
+vortex_t.Text = "VORTEX"
+vortex_t.TextColor3 = Color3.fromRGB(255, 255, 255)
+vortex_t.TextScaled = true
+vortex_t.TextSize = 14.000
+vortex_t.TextWrapped = true
+
+exe_vortex.Name = "exe_vortex"
+exe_vortex.Parent = vortex
+exe_vortex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exe_vortex.BackgroundTransparency = 1.000
+exe_vortex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exe_vortex.BorderSizePixel = 0
+exe_vortex.Position = UDim2.new(0.116168782, 0, 0.793502212, 0)
+exe_vortex.Size = UDim2.new(0.757981718, 0, 0.20649761, 0)
+exe_vortex.Font = Enum.Font.SourceSansBold
+exe_vortex.Text = "EXECUTE"
+exe_vortex.TextColor3 = Color3.fromRGB(255, 255, 255)
+exe_vortex.TextScaled = true
+exe_vortex.TextSize = 14.000
+exe_vortex.TextWrapped = true
+
+vortex_d.Name = "vortex_d"
+vortex_d.Parent = vortex
+vortex_d.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+vortex_d.BorderColor3 = Color3.fromRGB(255, 255, 255)
+vortex_d.BorderSizePixel = 2
+vortex_d.Position = UDim2.new(0.0387229174, 0, 0.432086557, 0)
+vortex_d.Size = UDim2.new(0.922554195, 0, 0.230252728, 0)
+vortex_d.Font = Enum.Font.SourceSans
+vortex_d.Text = "DA HOOD"
+vortex_d.TextColor3 = Color3.fromRGB(255, 255, 255)
+vortex_d.TextScaled = true
+vortex_d.TextSize = 14.000
+vortex_d.TextWrapped = true
+
+owl.Name = "owl"
+owl.Parent = scroll
+owl.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+owl.BorderColor3 = Color3.fromRGB(20, 20, 20)
+owl.BorderSizePixel = 2
+owl.Size = UDim2.new(0.258052707, 0, 0.0199999996, 0)
+
+owl_t.Name = "owl_t"
+owl_t.Parent = owl
+owl_t.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+owl_t.BorderColor3 = Color3.fromRGB(255, 255, 255)
+owl_t.BorderSizePixel = 2
+owl_t.Position = UDim2.new(0.0387228839, 0, 0.101297937, 0)
+owl_t.Size = UDim2.new(0.922554255, 0, 0.330788732, 0)
+owl_t.Font = Enum.Font.SourceSansBold
+owl_t.Text = "OWL HUB"
+owl_t.TextColor3 = Color3.fromRGB(255, 255, 255)
+owl_t.TextScaled = true
+owl_t.TextSize = 14.000
+owl_t.TextWrapped = true
+
+exe_owl.Name = "exe_owl"
+exe_owl.Parent = owl
+exe_owl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exe_owl.BackgroundTransparency = 1.000
+exe_owl.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exe_owl.BorderSizePixel = 0
+exe_owl.Position = UDim2.new(0.116168782, 0, 0.793502212, 0)
+exe_owl.Size = UDim2.new(0.757981718, 0, 0.20649761, 0)
+exe_owl.Font = Enum.Font.SourceSansBold
+exe_owl.Text = "EXECUTE"
+exe_owl.TextColor3 = Color3.fromRGB(255, 255, 255)
+exe_owl.TextScaled = true
+exe_owl.TextSize = 14.000
+exe_owl.TextWrapped = true
+
+owl_d.Name = "owl_d"
+owl_d.Parent = owl
+owl_d.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+owl_d.BorderColor3 = Color3.fromRGB(255, 255, 255)
+owl_d.BorderSizePixel = 2
+owl_d.Position = UDim2.new(0.0387229174, 0, 0.432086557, 0)
+owl_d.Size = UDim2.new(0.922554195, 0, 0.230252728, 0)
+owl_d.Font = Enum.Font.SourceSans
+owl_d.Text = "ARSENAL"
+owl_d.TextColor3 = Color3.fromRGB(255, 255, 255)
+owl_d.TextScaled = true
+owl_d.TextSize = 14.000
+owl_d.TextWrapped = true
+
 script_exe.Name = "script_exe"
 script_exe.Parent = section_games
 script_exe.BackgroundColor3 = Color3.fromRGB(45, 113, 42)
@@ -612,7 +838,7 @@ title3_2.BorderSizePixel = 0
 title3_2.Position = UDim2.new(0.00999999978, 0, 0, 0)
 title3_2.Size = UDim2.new(0.86500001, 0, 1, 0)
 title3_2.Font = Enum.Font.SourceSansBold
-title3_2.Text = "GAMES"
+title3_2.Text = "GUI"
 title3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 title3_2.TextScaled = true
 title3_2.TextSize = 14.000
@@ -836,6 +1062,156 @@ ue_d.TextScaled = true
 ue_d.TextSize = 14.000
 ue_d.TextWrapped = true
 
+opf.Name = "opf"
+opf.Parent = scroll_2
+opf.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+opf.BorderColor3 = Color3.fromRGB(20, 20, 20)
+opf.BorderSizePixel = 2
+opf.Size = UDim2.new(0.258052707, 0, 0.0199999996, 0)
+
+opf_t.Name = "opf_t"
+opf_t.Parent = opf
+opf_t.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+opf_t.BorderColor3 = Color3.fromRGB(255, 255, 255)
+opf_t.BorderSizePixel = 2
+opf_t.Position = UDim2.new(0.0387228839, 0, 0.101297937, 0)
+opf_t.Size = UDim2.new(0.922554255, 0, 0.330788732, 0)
+opf_t.Font = Enum.Font.SourceSansBold
+opf_t.Text = "OPFINALITY"
+opf_t.TextColor3 = Color3.fromRGB(255, 255, 255)
+opf_t.TextScaled = true
+opf_t.TextSize = 14.000
+opf_t.TextWrapped = true
+
+exe_opf.Name = "exe_opf"
+exe_opf.Parent = opf
+exe_opf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exe_opf.BackgroundTransparency = 1.000
+exe_opf.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exe_opf.BorderSizePixel = 0
+exe_opf.Position = UDim2.new(0.116168782, 0, 0.793502212, 0)
+exe_opf.Size = UDim2.new(0.757981718, 0, 0.20649761, 0)
+exe_opf.Font = Enum.Font.SourceSansBold
+exe_opf.Text = "EXECUTE"
+exe_opf.TextColor3 = Color3.fromRGB(255, 255, 255)
+exe_opf.TextScaled = true
+exe_opf.TextSize = 14.000
+exe_opf.TextWrapped = true
+
+opf_d.Name = "opf_d"
+opf_d.Parent = opf
+opf_d.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+opf_d.BorderColor3 = Color3.fromRGB(255, 255, 255)
+opf_d.BorderSizePixel = 2
+opf_d.Position = UDim2.new(0.0387229174, 0, 0.432086557, 0)
+opf_d.Size = UDim2.new(0.922554195, 0, 0.230252728, 0)
+opf_d.Font = Enum.Font.SourceSans
+opf_d.Text = "UNIVERSAL"
+opf_d.TextColor3 = Color3.fromRGB(255, 255, 255)
+opf_d.TextScaled = true
+opf_d.TextSize = 14.000
+opf_d.TextWrapped = true
+
+ser.Name = "ser"
+ser.Parent = scroll_2
+ser.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ser.BorderColor3 = Color3.fromRGB(20, 20, 20)
+ser.BorderSizePixel = 2
+ser.Size = UDim2.new(0.258052707, 0, 0.0199999996, 0)
+
+ser_t.Name = "ser_t"
+ser_t.Parent = ser
+ser_t.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ser_t.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ser_t.BorderSizePixel = 2
+ser_t.Position = UDim2.new(0.0387228839, 0, 0.101297937, 0)
+ser_t.Size = UDim2.new(0.922554255, 0, 0.330788732, 0)
+ser_t.Font = Enum.Font.SourceSansBold
+ser_t.Text = "SERENADE"
+ser_t.TextColor3 = Color3.fromRGB(255, 255, 255)
+ser_t.TextScaled = true
+ser_t.TextSize = 14.000
+ser_t.TextWrapped = true
+
+exe_ser.Name = "exe_ser"
+exe_ser.Parent = ser
+exe_ser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exe_ser.BackgroundTransparency = 1.000
+exe_ser.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exe_ser.BorderSizePixel = 0
+exe_ser.Position = UDim2.new(0.116168782, 0, 0.793502212, 0)
+exe_ser.Size = UDim2.new(0.757981718, 0, 0.20649761, 0)
+exe_ser.Font = Enum.Font.SourceSansBold
+exe_ser.Text = "EXECUTE"
+exe_ser.TextColor3 = Color3.fromRGB(255, 255, 255)
+exe_ser.TextScaled = true
+exe_ser.TextSize = 14.000
+exe_ser.TextWrapped = true
+
+ser_d.Name = "ser_d"
+ser_d.Parent = ser
+ser_d.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ser_d.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ser_d.BorderSizePixel = 2
+ser_d.Position = UDim2.new(0.0387229174, 0, 0.432086557, 0)
+ser_d.Size = UDim2.new(0.922554195, 0, 0.230252728, 0)
+ser_d.Font = Enum.Font.SourceSans
+ser_d.Text = "UNIVERSAL"
+ser_d.TextColor3 = Color3.fromRGB(255, 255, 255)
+ser_d.TextScaled = true
+ser_d.TextSize = 14.000
+ser_d.TextWrapped = true
+
+rev.Name = "rev"
+rev.Parent = scroll_2
+rev.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+rev.BorderColor3 = Color3.fromRGB(20, 20, 20)
+rev.BorderSizePixel = 2
+rev.Size = UDim2.new(0.258052707, 0, 0.0199999996, 0)
+
+rev_t.Name = "rev_t"
+rev_t.Parent = rev
+rev_t.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+rev_t.BorderColor3 = Color3.fromRGB(255, 255, 255)
+rev_t.BorderSizePixel = 2
+rev_t.Position = UDim2.new(0.0387228839, 0, 0.101297937, 0)
+rev_t.Size = UDim2.new(0.922554255, 0, 0.330788732, 0)
+rev_t.Font = Enum.Font.SourceSansBold
+rev_t.Text = "REVIZ"
+rev_t.TextColor3 = Color3.fromRGB(255, 255, 255)
+rev_t.TextScaled = true
+rev_t.TextSize = 14.000
+rev_t.TextWrapped = true
+
+exe_rev.Name = "exe_rev"
+exe_rev.Parent = rev
+exe_rev.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exe_rev.BackgroundTransparency = 1.000
+exe_rev.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exe_rev.BorderSizePixel = 0
+exe_rev.Position = UDim2.new(0.116168782, 0, 0.793502212, 0)
+exe_rev.Size = UDim2.new(0.757981718, 0, 0.20649761, 0)
+exe_rev.Font = Enum.Font.SourceSansBold
+exe_rev.Text = "EXECUTE"
+exe_rev.TextColor3 = Color3.fromRGB(255, 255, 255)
+exe_rev.TextScaled = true
+exe_rev.TextSize = 14.000
+exe_rev.TextWrapped = true
+
+rev_d.Name = "rev_d"
+rev_d.Parent = rev
+rev_d.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+rev_d.BorderColor3 = Color3.fromRGB(255, 255, 255)
+rev_d.BorderSizePixel = 2
+rev_d.Position = UDim2.new(0.0387229174, 0, 0.432086557, 0)
+rev_d.Size = UDim2.new(0.922554195, 0, 0.230252728, 0)
+rev_d.Font = Enum.Font.SourceSans
+rev_d.Text = "ADMIN"
+rev_d.TextColor3 = Color3.fromRGB(255, 255, 255)
+rev_d.TextScaled = true
+rev_d.TextSize = 14.000
+rev_d.TextWrapped = true
+
 script_exe_2.Name = "script_exe"
 script_exe_2.Parent = section_guis
 script_exe_2.BackgroundColor3 = Color3.fromRGB(45, 113, 42)
@@ -872,7 +1248,7 @@ img_2.Image = "rbxassetid://15107634435"
 
 -- Scripts:
 
-local function TJYRX_fake_script() -- logo.LocalScript 
+local function BQRV_fake_script() -- logo.LocalScript 
 	local script = Instance.new('LocalScript', logo)
 
 	local mini = false
@@ -891,8 +1267,8 @@ local function TJYRX_fake_script() -- logo.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TJYRX_fake_script)()
-local function QWHW_fake_script() -- sections.sec_handler 
+coroutine.wrap(BQRV_fake_script)()
+local function ADJIUC_fake_script() -- sections.sec_handler 
 	local script = Instance.new('LocalScript', sections)
 
 	local frame = script.Parent
@@ -912,16 +1288,16 @@ local function QWHW_fake_script() -- sections.sec_handler
 		script.Parent.Parent.section_guis.Visible = true
 	end)
 end
-coroutine.wrap(QWHW_fake_script)()
-local function KHOQJM_fake_script() -- close.LocalScript 
+coroutine.wrap(ADJIUC_fake_script)()
+local function RVWNE_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KHOQJM_fake_script)()
-local function XBYIV_fake_script() -- section_plr.plr_handler 
+coroutine.wrap(RVWNE_fake_script)()
+local function YNEEJ_fake_script() -- section_plr.plr_handler 
 	local script = Instance.new('LocalScript', section_plr)
 
 	local plr = game:GetService("Players").LocalPlayer
@@ -1054,16 +1430,16 @@ local function XBYIV_fake_script() -- section_plr.plr_handler
 		end
 	end)
 end
-coroutine.wrap(XBYIV_fake_script)()
-local function KUHV_fake_script() -- close2.LocalScript 
+coroutine.wrap(YNEEJ_fake_script)()
+local function RUCRL_fake_script() -- close2.LocalScript 
 	local script = Instance.new('LocalScript', close2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KUHV_fake_script)()
-local function QGPGZW_fake_script() -- scroll.games_handler 
+coroutine.wrap(RUCRL_fake_script)()
+local function QSHZM_fake_script() -- scroll.games_handler 
 	local script = Instance.new('LocalScript', scroll)
 
 	local frame = script.Parent
@@ -1075,17 +1451,49 @@ local function QGPGZW_fake_script() -- scroll.games_handler
 		script.Parent.Parent.script_exe.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
 	end)
+	
+	-- sky
+	frame.sky.exe_sky.MouseButton1Click:Connect(function()
+		script.Parent.Parent.script_exe.Visible = true
+		wait(3)
+		script.Parent.Parent.script_exe.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+	end)
+	
+	-- paint
+	frame.paint.exe_paint.MouseButton1Click:Connect(function()
+		script.Parent.Parent.script_exe.Visible = true
+		wait(3)
+		script.Parent.Parent.script_exe.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
+	end)
+	
+	-- vortex
+	frame.vortex.exe_vortex.MouseButton1Click:Connect(function()
+		script.Parent.Parent.script_exe.Visible = true
+		wait(3)
+		script.Parent.Parent.script_exe.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+	end)
+	
+	-- owl
+	frame.owl.exe_owl.MouseButton1Click:Connect(function()
+		script.Parent.Parent.script_exe.Visible = true
+		wait(3)
+		script.Parent.Parent.script_exe.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
 end
-coroutine.wrap(QGPGZW_fake_script)()
-local function XTHN_fake_script() -- close2_2.LocalScript 
+coroutine.wrap(QSHZM_fake_script)()
+local function BMEPOG_fake_script() -- close2_2.LocalScript 
 	local script = Instance.new('LocalScript', close2_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(XTHN_fake_script)()
-local function UHAD_fake_script() -- scroll_2.guis_handler 
+coroutine.wrap(BMEPOG_fake_script)()
+local function HGWNW_fake_script() -- scroll_2.guis_handler 
 	local script = Instance.new('LocalScript', scroll_2)
 
 	local frame = script.Parent
@@ -1111,7 +1519,7 @@ local function UHAD_fake_script() -- scroll_2.guis_handler
 		script.Parent.Parent.script_exe.Visible = true
 		wait(3)
 		script.Parent.Parent.script_exe.Visible = false
-		loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/3e50ce0fdd03713dfbeb1845ee6f52d7/raw/630318908f56a984db9568a89e33eadb7998158a/feutg1",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
 	end)
 	
 	-- ue
@@ -1121,5 +1529,29 @@ local function UHAD_fake_script() -- scroll_2.guis_handler
 		script.Parent.Parent.script_exe.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/refs/heads/master/UnnamedESP.lua",true))()
 	end)
+	
+	-- opf
+	frame.opf.exe_opf.MouseButton1Click:Connect(function()
+		script.Parent.Parent.script_exe.Visible = true
+		wait(3)
+		script.Parent.Parent.script_exe.Visible = false
+		loadstring(game:HttpGet("https://pastebin.com/raw/nBRJeRjm", false))()
+	end)
+	
+	-- ser
+	frame.ser.exe_ser.MouseButton1Click:Connect(function()
+		script.Parent.Parent.script_exe.Visible = true
+		wait(3)
+		script.Parent.Parent.script_exe.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/4xdhondiscord/SerenadeHub/main/Serenade", true))()
+	end)
+	
+	-- rev
+	frame.rev.exe_rev.MouseButton1Click:Connect(function()
+		script.Parent.Parent.script_exe.Visible = true
+		wait(3)
+		script.Parent.Parent.script_exe.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXHAX/Prison_Life_Hax/refs/heads/master/!%20%5BFE%5D%20Reviz%20Admin%20Cmd%20%5BBEST%5D.txt", true))()
+	end)
 end
-coroutine.wrap(UHAD_fake_script)()
+coroutine.wrap(HGWNW_fake_script)()
